@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 import pytest
-from senum import Senum, using_senum
-
+from overloaded.senum import Senum, using_senum
 
 class State(Senum):
     begin = 1
