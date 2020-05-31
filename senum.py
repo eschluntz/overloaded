@@ -70,6 +70,7 @@ def using_senum():
         elif state == "end":  # throws error
             state += "begin"  # throws error
         print(state)
+    return state
 
 
 if __name__ == "__main__":

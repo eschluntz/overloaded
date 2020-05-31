@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.com/eschluntz/overloaded.svg?token=5yZpaXjQFKygqrvS9jMv&branch=master)](https://travis-ci.com/eschluntz/overloaded)
 
+[![codecov](https://codecov.io/gh/eschluntz/overloaded/branch/master/graph/badge.svg)](https://codecov.io/gh/eschluntz/overloaded)
+
 # overloaded
 Fun datatypes that heavily use operator overloading
 

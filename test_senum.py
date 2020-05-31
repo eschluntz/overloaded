@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import pytest
-from senum import Senum
+from senum import Senum, using_senum
 
 
 class State(Senum):
@@ -26,3 +26,7 @@ def test_bad_compare():
     state = State.begin
     with pytest.raises(Exception):
         state == "ending"
+
+def test_example():
+    result = using_senum()
+    assert result == "begin"
